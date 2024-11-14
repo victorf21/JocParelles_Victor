@@ -1,0 +1,47 @@
+body {
+    background-color: #b4ebab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    min-height: 100vh;
+}
+
+header, main {
+    padding: 20px;
+    width: 100%; 
+    max-width: 800px;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+header h1 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.introducirNombre {
+    display: flex;
+    align-items: center;
+}
+
+
+/* JOC */
+#cartas {
+    display: grid;
+    grid-template-columns: repeat(4, 80px); 
+    grid-template-rows: repeat(5, 80px); 
+    gap: 5px; 
+}
+
+.carta {
+    width: 80px;
+    height: 80px;
+    background-color: #5296d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
